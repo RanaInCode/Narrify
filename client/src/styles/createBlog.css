@@ -1,0 +1,71 @@
+.blog-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    gap: 30px;
+  }
+  
+  .editor-section {
+    flex: 3;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .editor-section input,
+  .editor-section textarea {
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  .editor-section textarea {
+    min-height: 200px;
+  }
+  
+  .sidebar-section {
+    flex: 1;
+    background-color: #f9f9f9;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .sidebar-section h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .sidebar-section .publish-section,
+  .sidebar-section .featured-image-section,
+  .sidebar-section .categories-section {
+    margin-bottom: 30px;
+  }
+  
+  .sidebar-section button {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #0073aa;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  .sidebar-section button:hover {
+    background-color: #005f8a;
+  }
+  
+  .sidebar-section label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 14px;
+  }
+  
