@@ -5,8 +5,13 @@
     <title>Redirecting...</title>
     <script>
       const pathname = window.location.pathname;
-      const redirectPath = '/Narrify' + pathname;
-      window.location.replace(redirectPath);
+      const alreadyInNarrify = pathname.startsWith('/Narrify');
+
+      if (alreadyInNarrify) {
+        window.location.replace('/Narrify/');
+      } else {
+        window.location.replace('/Narrify' + pathname);
+      }
     </script>
   </head>
   <body>
